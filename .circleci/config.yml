@@ -14,9 +14,6 @@ base: &base
     - run:
         name: Build
         command: npm run ci
-    - run:
-        name: Report coverage
-        command: npm run codecov
     - save_cache:
         key: ashe-{{ .Environment.CIRCLE_JOB }}-{{ .Branch }}-{{ checksum "package.json" }}
         paths:
