@@ -1,0 +1,52 @@
+{
+  "name": "@dxd/ashe",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "compile": "umi-lib build",
+    "lint": "npm run prettier -- -l",
+    "format": "npm run prettier -- --write",
+    "prettier": "prettier \"src/**/*.{ts,tsx}\"",
+    "ci": "npm run lint && npm run test && npm run compile",
+    "doc": "umi-lib doc dev",
+    "doc:deploy": "umi-lib doc build && umi-lib doc deploy",
+    "test": "umi-test --coverage",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "dependencies": {
+    "hoist-non-react-statics": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.9.2",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.17",
+    "conventional-changelog-cli": "^2.0.21",
+    "husky": "^2.3.0",
+    "mobx": "^5.9.4",
+    "prettier": "^1.17.1",
+    "reflect-metadata": "^0.1.13",
+    "umi-library": "^1.6.0",
+    "umi-test": "^1.5.7"
+  },
+  "peerDependencies": {
+    "mobx": ">=4.0.0",
+    "react": "^16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doxiaodong/ashe.git"
+  },
+  "author": "doxiaodong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doxiaodong/ashe/issues"
+  },
+  "homepage": "https://github.com/doxiaodong/ashe#readme",
+  "description": ""
+}
