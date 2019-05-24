@@ -3,5 +3,6 @@ export default {
   cjs: { type: 'rollup' },
   doc: {
     typescript: true,
+    base: '/ashe',
   },
 }
