@@ -1,8 +1,8 @@
 {
-  "vendors.js": "/static/js/vendors.76066728.js",
-  "app.js": "/static/js/app.b8f64161137f8179905a.js",
-  "examples-both.js": "/static/js/examples-both.29bb5498.js",
-  "examples-observer.js": "/static/js/examples-observer.1bff0345.js",
-  "examples-use-observer.js": "/static/js/examples-use-observer.b4e6bb88.js",
-  "index.html": "/index.html"
+  "vendors.js": "/ashe/static/js/vendors.0a5acf80.js",
+  "app.js": "/ashe/static/js/app.bc7ae9d2502468d26a40.js",
+  "examples-both.js": "/ashe/static/js/examples-both.29bb5498.js",
+  "examples-observer.js": "/ashe/static/js/examples-observer.1bff0345.js",
+  "examples-use-observer.js": "/ashe/static/js/examples-use-observer.b4e6bb88.js",
+  "index.html": "/ashe/index.html"
 }
